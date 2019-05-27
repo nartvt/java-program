@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Exercise2_ConvertDecimalToBinary",
+            "request": "launch",
+            "mainClass": "cybersoft.com.Exercise2.Exercise2_ConvertDecimalToBinary",
+            "projectName": "cybersoft_java_01"
+        }
+    ]
+}
