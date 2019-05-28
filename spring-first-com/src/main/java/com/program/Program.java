@@ -1,14 +1,14 @@
-package com.cybersoft;
+package com.program;
 
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
-import com.cybersoft.configuration.BeansConfig;
-import com.cybersoft.controller.ContactController;
-import com.cybersoft.controller.HomeController;
-import com.cybersoft.service.EmailService;
-import com.cybersoft.service.FacebookService;
-import com.cybersoft.service.MessageService;
+import com.program.configuration.BeansConfig;
+import com.program.controller.ContactController;
+import com.program.controller.HomeController;
+import com.program.service.EmailService;
+import com.program.service.FacebookService;
+import com.program.service.MessageService;
 
 public class Program {
   

@@ -4,11 +4,11 @@
   xsi:schemaLocation="http://www.springframework.org/schema/beans 
   http://www.springframework.org/schema/beans/spring-beans.xsd">
   
-  <bean id="emailService" class="com.cybersoft.service.EmailService"></bean>
+  <bean id="emailService" class="com.program.service.EmailService"></bean>
   
-  <bean id="homeController" class="com.cybersoft.controller.HomeController">
+  <bean id="homeController" class="com.program.controller.HomeController">
     <constructor-arg ref="emailService"> </constructor-arg>
   </bean>
 
- <bean id="contactController" class="com.cybersoft.controller.ContactController"></bean>
+ <bean id="contactController" class="com.program.controller.ContactController"></bean>
 </beans>

@@ -1,4 +1,4 @@
-package com.cybersoft.service;
+package com.program.service;
 
 public class EmailService implements MessageService {
   public void sendMessage() {

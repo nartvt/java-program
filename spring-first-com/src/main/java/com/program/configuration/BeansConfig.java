@@ -1,12 +1,12 @@
-package com.cybersoft.configuration;
+package com.program.configuration;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
-import com.cybersoft.controller.ContactController;
-import com.cybersoft.controller.HomeController;
-import com.cybersoft.service.EmailService;
-import com.cybersoft.service.FacebookService;
+import com.program.controller.ContactController;
+import com.program.controller.HomeController;
+import com.program.service.EmailService;
+import com.program.service.FacebookService;
 
 @Configuration
 public class BeansConfig {

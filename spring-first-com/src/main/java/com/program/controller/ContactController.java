@@ -1,7 +1,7 @@
-package com.cybersoft.controller;
+package com.program.controller;
 
-import com.cybersoft.service.EmailService;
-import com.cybersoft.service.MessageService;
+import com.program.service.EmailService;
+import com.program.service.MessageService;
 
 public class ContactController {
   private MessageService _service = null;

@@ -1,4 +1,4 @@
-package com.cybersoft.service;
+package com.program.service;
 
 public interface MessageService {
   void sendMessage();
