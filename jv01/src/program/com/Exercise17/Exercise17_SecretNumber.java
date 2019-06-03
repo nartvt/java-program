@@ -1,4 +1,4 @@
-package cybersoft.com.Exercise17;
+package  program.com.Exercise17;
 
 import java.util.Random;
 import java.util.Scanner;

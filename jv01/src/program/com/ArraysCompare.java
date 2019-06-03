@@ -1,4 +1,4 @@
-package cybersoft.com;
+package  program.com;
 
 import java.util.Scanner;
 

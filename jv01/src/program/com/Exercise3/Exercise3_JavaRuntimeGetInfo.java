@@ -1,4 +1,4 @@
-package cybersoft.com.Exercise3;
+package  program.com.Exercise3;
 
 public class Exercise3_JavaRuntimeGetInfo {
 

@@ -1,4 +1,4 @@
-  package cybersoft.com;
+package  program.com;
 
 public class Java {
  public static void main(String[] args) {

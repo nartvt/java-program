@@ -1,4 +1,4 @@
-package cybersoft.com.Exercise13;
+package  program.com.Exercise13;
 
 public class Main {
 

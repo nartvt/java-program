@@ -1,4 +1,4 @@
-package cybersoft.com.Exercise15;
+package  program.com.Exercise15;
 
 import java.util.Scanner;
 

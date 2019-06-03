@@ -1,4 +1,4 @@
-package cybersoft.com.Exercise2;
+package  program.com.Exercise2;
 
 public class Exercise2_ConvertDecimalToBinary {
 

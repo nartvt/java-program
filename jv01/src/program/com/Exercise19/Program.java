@@ -1,4 +1,4 @@
-package cybersoft.com.Exercise19;
+package  program.com.Exercise19;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package cybersoft.com.Exercise1;
+package  program.com.Exercise1;
 
 public class Exercise1_AmericaFlag {
 
