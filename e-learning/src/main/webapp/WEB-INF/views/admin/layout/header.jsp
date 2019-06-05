@@ -10,18 +10,18 @@
       content="flat ui, admin Admin , Responsive, Landing, Bootstrap, App, Template, Mobile, iOS, Android, apple, creative app">
     <meta name="author" content="#">
     <!-- Favicon icon -->
-    <link rel="icon" href="<c:url value="/statics/admin/assets/images/favicon.ico"/>" type="image/x-icon">
+    <link rel="icon" href="<c:url value="/resources/admin/assets/images/favicon.ico"/>" type="image/x-icon">
     <!-- Google font-->
     <link href="<c:url value="https://fonts.googleapis.com/css?family=Open+Sans:400,600"/>" rel="stylesheet">
     <!-- Required Fremwork -->
-    <link rel="stylesheet" type="text/css" href="<c:url value="/statics/admin/bower_components/bootstrap/css/bootstrap.min.css"/>">
+    <link rel="stylesheet" type="text/css" href="<c:url value="/resources/admin/bower_components/bootstrap/css/bootstrap.min.css"/>">
     <link rel="stylesheet" type="text/css" href="<c:url value="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />"/>
     <!-- themify-icons line icon -->
-    <link rel=" stylesheet" type="text/css" href="<c:url value="/statics/admin/assets/icon/themify-icons/themify-icons.css"/>">
+    <link rel=" stylesheet" type="text/css" href="<c:url value="/resources/admin/assets/icon/themify-icons/themify-icons.css"/>">
     <!-- ico font -->
-    <link rel="stylesheet" type="text/css" href="<c:url value="/statics/admin/assets/icon/icofont/css/icofont.css"/>">
+    <link rel="stylesheet" type="text/css" href="<c:url value="/resources/admin/assets/icon/icofont/css/icofont.css"/>">
     <!-- feather Awesome -->
-    <link rel="stylesheet" type="text/css" href="<c:url value="/statics/admin/assets/icon/feather/css/feather.css" />">
+    <link rel="stylesheet" type="text/css" href="<c:url value="/resources/admin/assets/icon/feather/css/feather.css" />">
     <!-- Style.css -->
-    <link rel="stylesheet" type="text/css" href="<c:url value="/statics/admin/assets/css/style.css"/>">
-    <link rel="stylesheet" type="text/css" href="<c:url value="/statics/admin/assets/css/jquery.mCustomScrollbar.css"/>">
+    <link rel="stylesheet" type="text/css" href="<c:url value="/resources/admin/assets/css/style.css"/>">
+    <link rel="stylesheet" type="text/css" href="<c:url value="/resources/admin/assets/css/jquery.mCustomScrollbar.css"/>">

@@ -2,16 +2,28 @@
 <!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN" "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
 <tiles-definitions>
   <definition name="base-default"
-    template="/WEB-INF/views/layout/default.jsp">
+    template="/WEB-INF/views/admin/layout/default.jsp">
     <put-attribute name="title" value="" />
-    <put-attribute name="header" value="/WEB-INF/views/layout/header.jsp" />
-    <put-attribute name="navbar" value="/WEB-INF/views/layout/navbar.jsp" />
-    <put-attribute name="sidebar" value="/WEB-INF/views/layout/sidebar.jsp" />
+    <put-attribute name="header" value="/WEB-INF/views/admin/layout/header.jsp" />
+    <put-attribute name="navbar" value="/WEB-INF/views/admin/layout/navbar.jsp" />
+    <put-attribute name="sidebar" value="/WEB-INF/views/admin/layout/sidebar.jsp" />
     <put-attribute name="body" value="" />
-    <put-attribute name="footer" value="/WEB-INF/views/layout/footer.jsp" />
+    <put-attribute name="footer" value="/WEB-INF/views/admin/layout/footer.jsp" />
   </definition>
   <definition name="homeIndex" extends="base-default">
     <put-attribute name="title" value="Trang Chủ" />
     <put-attribute name="body" value="/WEB-INF/views/home/index.jsp" />
+  </definition>
+    <definition name="userList" extends="base-default">
+    <put-attribute name="title" value="Danh Sach User" />
+    <put-attribute name="body" value="/WEB-INF/views/admin/index.jsp" />
+  </definition>
+      <definition name="userAdd" extends="base-default">
+    <put-attribute name="title" value="Them User" />
+    <put-attribute name="body" value="/WEB-INF/views/admin/add.jsp" />
+  </definition>
+      <definition name="userEdit" extends="base-default">
+    <put-attribute name="title" value="Edit User" />
+    <put-attribute name="body" value="/WEB-INF/views/admin/edit.jsp" />
   </definition>
 </tiles-definitions>
