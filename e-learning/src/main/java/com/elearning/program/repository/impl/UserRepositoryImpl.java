@@ -2,27 +2,19 @@ package com.elearning.program.repository.impl;
 
 import java.util.ArrayList;
 import java.util.List;
-<<<<<<< HEAD
-import java.util.UUID;
 
 import org.springframework.stereotype.Repository;
-=======
->>>>>>> 8630ea7178b6a2bc94086834c16c1277a1cd101d
 
 import com.elearning.program.entity.User;
 import com.elearning.program.repository.UserRepository;
 
-<<<<<<< HEAD
 @Repository
-=======
->>>>>>> 8630ea7178b6a2bc94086834c16c1277a1cd101d
 public class UserRepositoryImpl implements UserRepository {
 
   private List<User> users;
 
   public UserRepositoryImpl() {
     users = new ArrayList<>();
-<<<<<<< HEAD
     User user = new User();
     user.setId("T001");
     user.setEmail("tranvantai0011@gmail.com");
@@ -36,8 +28,6 @@ public class UserRepositoryImpl implements UserRepository {
     user.setFacebook("facebook.com");
     user.setRoleId("R01");
     users.add(user);
-=======
->>>>>>> 8630ea7178b6a2bc94086834c16c1277a1cd101d
   }
 
   @Override
@@ -56,18 +46,13 @@ public class UserRepositoryImpl implements UserRepository {
   }
 
   @Override
-<<<<<<< HEAD
   public boolean save(User user) {    
-=======
-  public boolean save(User user) {
->>>>>>> 8630ea7178b6a2bc94086834c16c1277a1cd101d
     return this.users.add(user);
   }
 
   @Override
   public boolean delete(String id) {
     User user = this.findById(id);
-<<<<<<< HEAD
     return users.remove(user);
   }
 
@@ -91,9 +76,6 @@ public class UserRepositoryImpl implements UserRepository {
       }
     }
     return false;
-=======
-    return this.users.remove(user);
->>>>>>> 8630ea7178b6a2bc94086834c16c1277a1cd101d
   }
 
 }
