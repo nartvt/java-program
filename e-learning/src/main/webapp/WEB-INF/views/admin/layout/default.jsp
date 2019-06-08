@@ -1,5 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
-  pageEncoding="UTF-8"%>
+	pageEncoding="UTF-8"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 <%@ taglib uri="http://tiles.apache.org/tags-tiles" prefix="tiles"%>
 <!DOCTYPE html>
@@ -11,34 +11,33 @@
 </head>
 
 <body>
-  <div id="pcoded" class="pcoded">
-    <div class="pcoded-overlay-box"></div>
-    <div class="pcoded-container navbar-wrapper">
+	<div id="pcoded" class="pcoded">
+		<div class="pcoded-overlay-box"></div>
+		<div class="pcoded-container navbar-wrapper">
 
-      <nav class="navbar header-navbar pcoded-header">
-        <!-- NAVBAR -->
-        <tiles:insertAttribute name="navbar" />
-      </nav>
-      <div class="pcoded-main-container">
-        <div class="pcoded-wrapper">
-          <!-- SIDE BAR -->
-          <tiles:insertAttribute name="sidebar" />
+			<nav class="navbar header-navbar pcoded-header">
+				<!-- NAVBAR -->
+				<tiles:insertAttribute name="navbar" />
+			</nav>
+			<div class="pcoded-main-container">
+				<div class="pcoded-wrapper">
+					<!-- SIDE BAR -->
+					<tiles:insertAttribute name="sidebar" />
 
-          <div class="pcoded-content">
-            <div class="pcoded-inner-content">
-              <!-- Main-body start -->
-              <div class="main-body">
-                <!-- BODY -->
-                <tiles:insertAttribute name="body" />
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <tiles:insertAttribute name="footer" />
+					<div class="pcoded-content">
+						<div class="pcoded-inner-content">
+							<!-- Main-body start -->
+							<div class="main-body">
+								<!-- BODY -->
+								<tiles:insertAttribute name="body" />
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<tiles:insertAttribute name="footer" />
 </body>
 
 </html>
-

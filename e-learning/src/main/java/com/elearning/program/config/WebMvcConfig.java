@@ -17,8 +17,8 @@ import com.elearning.program.service.impl.UserServiceImpl;
 
 @Configuration
 @EnableWebMvc
-@ComponentScan(basePackages =  {"com.elearning.program.controller","com.elearning.program.admin.controller"})
-public class WebMvcConfig implements WebMvcConfigurer {
+@ComponentScan(basePackages = { "com.elearning.program.controller","com.elearning.program.admin.controller"})
+public class WebMvcConfig implements  WebMvcConfigurer{
 //  public void configureViewResolvers(ViewResolverRegistry viewResolverRegistry) {
 //    viewResolverRegistry.jsp("/WEB-INF/views/", ".jsp");
 //  }
@@ -35,9 +35,9 @@ public class WebMvcConfig implements WebMvcConfigurer {
     registry.viewResolver(tilesViewResolver);
   }
 
-//  public void addResourcesHandlers(ResourceHandlerRegistry registry) {
-//    registry.addResourceHandler("/statics/**").addResourceLocations("/resources/");
-//  }
+  public void addResourcesHandlers(ResourceHandlerRegistry registry) {
+    registry.addResourceHandler("/statics/**").addResourceLocations("/resources/");
+  }
 
   @Bean
   public UserRepository userRepository() {

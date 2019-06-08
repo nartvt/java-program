@@ -1,4 +1,4 @@
-package com.elearning.program.controller;
+package com.elearning.program.admin.controller;
 
 import java.util.List;
 
@@ -15,7 +15,7 @@ import com.elearning.program.entity.User;
 import com.elearning.program.service.UserService;
 
 @Controller
-@RequestMapping("/admin/user")
+@RequestMapping("admin/user")
 public class AdminUserController {
 
   @Autowired
@@ -28,14 +28,14 @@ public class AdminUserController {
     return "userList";
   }
 
-  @GetMapping("/add")
+  @GetMapping("add")
   public String add(@ModelAttribute("user") User user, ModelMap model) {
     userService.save(user);
     model.addAttribute("user", user);
     return "userAdd";
   }
 
-  @GetMapping("/edit/{id}")
+  @GetMapping("edit/{id}")
   public String edit(@PathVariable("id") String id, ModelMap model) {
     User user = userService.findById(id);
     model.addAttribute("users", user);
