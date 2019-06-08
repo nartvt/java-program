@@ -1,0 +1,18 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.spring.parent</groupId>
+  <artifactId>spring-boot-stater-web-project-parent</artifactId>
+  <packaging>pom</packaging>
+  <name>spring-boot-stater-web-project</name>
+  <parent>
+     <groupId>pom-parent</groupId>
+    <artifactId>pom-parent</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+  </parent>
+  <modules>
+    <module>spring-boot-stater-web</module>
+    <module>spring-angular-mysql-program</module>
+  </modules>
+</project>

@@ -1,0 +1,37 @@
+{
+    "configurations": [
+
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - MainTransaction",
+            "request": "launch",
+            "console": "externalTerminal",
+            "mainClass": "program.com.exercise06.MainTransaction",
+            "projectName": "cybersoft_java_02"
+        },
+        {
+            "type": "java",
+            "name": "Launch - MainBook - exercise05",
+            "request": "launch",
+            "console": "externalTerminal",
+            "mainClass": "program.com.exercise05.MainBook",
+            "projectName": "cybersoft_java_02"
+        },
+        {
+            "type": "java",
+            "name": "Launch - External Terminal exercise04",
+            "request": "launch",
+            "console": "externalTerminal",
+            "mainClass": "program.com.exercise04.Main",
+            "projectName": "cybersoft_java_02"
+        },
+        {
+            "type": "java",
+            "name": "Launch - External Terminal exercise03 ",
+            "request": "launch",
+            "console": "externalTerminal",
+            "mainClass": "program.com.exercise03.Main",
+            "projectName": "cybersoft_java_02"
+        }
+    ]
+}
